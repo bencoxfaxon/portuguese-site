@@ -1,0 +1,3422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grammar</title>
+  </head>
+  <body>
+    <main>
+      <div class="element-container">
+        <!-- LEFT -->
+        <section class="left">
+          <p>
+            <a class="heading-button" href="#">Practice</a>
+            <a
+              class="heading-button"
+              href="https://docs.google.com/document/d/1khkCz4oEDxuaOMHH5zkx452Vnak4bmQop9adrfPwXbk/edit?usp=sharing"
+              target="_blank"
+              >Resources</a
+            >
+          </p>
+
+          <h3 class="nav-title">Indicativo</h3>
+          <div class="element-container button-container">
+            <div>
+              <button class="nav-button" type="button" onclick="show_me(as_1)">
+                Presente
+              </button>
+              <button class="nav-button" type="button" onclick="show_me(as_2)">
+                Imperfeito
+              </button>
+              <button class="nav-button" type="button" onclick="show_me(as_3)">
+                Perfeito
+              </button>
+            </div>
+            <div>
+              <button class="nav-button" type="button" onclick="show_me(as_4)">
+                Fut. Pret.
+              </button>
+              <button class="nav-button" type="button" onclick="show_me(as_5)">
+                Fut. Pres.
+              </button>
+            </div>
+          </div>
+
+          <h3 class="nav-title">Compostos</h3>
+          <div class="element-container button-container">
+            <div>
+              <button class="nav-button" onclick="show_me(as_6)">
+                Pres. Prog.
+              </button>
+              <button class="nav-button" onclick="show_me(as_7)">
+                Pret. MQP
+              </button>
+              <button class="nav-button" onclick="show_me(as_8)">
+                Imp. Comp.
+              </button>
+            </div>
+            <div>
+              <button class="nav-button" onclick="show_me(as_9)">
+                Fut. Simples
+              </button>
+              <button class="nav-button" onclick="show_me(as_10)">
+                Pret. Perf.
+              </button>
+              <button class="nav-button" onclick="show_me(as_11)">
+                Voz Passiva
+              </button>
+            </div>
+          </div>
+
+          <h3 class="nav-title">Subjuntivo</h3>
+          <div class="element-container button-container">
+            <div>
+              <button class="nav-button" onclick="show_me(as_12)">
+                Sub. Pres.
+              </button>
+              <button class="nav-button" onclick="show_me(as_13)">
+                Sub. Imp.
+              </button>
+            </div>
+            <div>
+              <button class="nav-button" onclick="show_me(as_14)">
+                Sub. Fut.
+              </button>
+            </div>
+          </div>
+
+          <h3 class="nav-title">Objetos</h3>
+          <div class="element-container button-container">
+            <button class="nav-button" onclick="show_me(as_15)">
+              Indireito
+            </button>
+            <button class="nav-button" onclick="show_me(as_16)">Direito</button>
+          </div>
+        </section>
+
+        <!-- RIGHT -->
+        <section class="right">
+          <h3>Learn Brazilian Portuguese</h3>
+          <p>
+            Created by beginners, for beginners. Understand simple grammar
+            topics rapidly and speak the basics with confidence. No more
+            searching and translating sites with confusing explanations. Your
+            next big language-learning steps are right here, in one place.
+            Bem-Vindos!
+          </p>
+
+          <div class="panel" id="article-1-section">
+            <div class="sub-section">
+              <p>
+                <strong>Presente do Indicativo:</strong>
+                the present tense indicates an action that takes place in the
+                moment of narration, or may indicate habitual action or a state
+                of a situation or object using the verb SER or ESTAR.
+                <a class="practice-link">PRACTICE</a>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Other forms of speaking in the present: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_6)"
+                >
+                  Presente Composto
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_12)"
+                >
+                  Presente do Subjuntivo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Regular Verbs:</strong> To form regular
+                verbs in the Presente, remove the 'ar', 'ir', or 'er' from the
+                end of the infinitive, then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>+ 'o'</td>
+                  <td>+ 'a'</td>
+                  <td>+ 'amos'</td>
+                  <td>+ 'am'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>+ 'o'</td>
+                  <td>+ 'e'</td>
+                  <td>+ 'emos'</td>
+                  <td>+ 'em'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>+ 'o'</td>
+                  <td>+ 'e'</td>
+                  <td>+ 'imos'</td>
+                  <td>+ 'em'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você <mark>usa</mark> a ferramenta para consertar a parede.
+                  (You <mark>use</mark> the tool to fix the wall.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Nós <mark>usamos</mark> açúcar em nossa receita. (We
+                  <mark>use</mark> sugar in our recipe.)
+                </p>
+                <p class="p-examples">
+                  Vocês só <mark>usam</mark> seus computadores com frequência.
+                  (You <mark>use</mark> your computers often.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu nunca <mark>como</mark> vegetais. (I never
+                  <mark>eat</mark> vegetables.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Nós <mark>comemos</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Vocês só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                there are no consistent rules for irregular verb conjugations in
+                the Presente.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>hei</td>
+                  <td>há</td>
+                  <td>havamos</td>
+                  <td>hão</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>digo</td>
+                  <td>diz</td>
+                  <td>dizemos</td>
+                  <td>dizem</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>trago</td>
+                  <td>traz</td>
+                  <td>trazemos</td>
+                  <td>trazem</td>
+                </tr>
+                <tr>
+                  <td>fazer (to do, make)</td>
+                  <td>faço</td>
+                  <td>faz</td>
+                  <td>fazemos</td>
+                  <td>fazem</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>quero</td>
+                  <td>quer</td>
+                  <td>queremos</td>
+                  <td>querem</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>sei</td>
+                  <td>sabe</td>
+                  <td>sabemos</td>
+                  <td>sabem</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>posso</td>
+                  <td>pode</td>
+                  <td>podemos</td>
+                  <td>podem</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>sou</td>
+                  <td>é</td>
+                  <td>somos</td>
+                  <td>são</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>tenho</td>
+                  <td>tem</td>
+                  <td>temos</td>
+                  <td>têm</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>vou</td>
+                  <td>vai</td>
+                  <td>vamos</td>
+                  <td>vão</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>estou</td>
+                  <td>está</td>
+                  <td>estamos</td>
+                  <td>estão</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>venho</td>
+                  <td>vem</td>
+                  <td>vim</td>
+                  <td>vêm</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>vejo</td>
+                  <td>vê</td>
+                  <td>vemos</td>
+                  <td>veem</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>dou</td>
+                  <td>dá</td>
+                  <td>damos</td>
+                  <td>dão</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-2-section">
+            <div class="sub-section">
+              <p>
+                <strong>Pretérito Imperfeito do Indicativo:</strong>
+                the imperfect tense is used to describe an event that happened
+                in the past which was not completely finished, expressing
+                continuity and duration in time. It is commonly used to narrate,
+                when describing an action that gets interrupted, and whenever
+                saying "used to + verb" - though this can be expressed with the
+                verb CUSTOMAR as well.
+                <a class="practice-link">PRACTICE</a>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong
+                  >Other forms of speaking in the past with continuity:
+                </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_10)"
+                >
+                  Pretérito Perfeito Composto
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_8)"
+                >
+                  Imperfeito Composto
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Regular Verbs:</strong> To form regular
+                verbs in the Presente, remove the 'ar', 'ir', or 'er' from the
+                end of the infinitive, then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>+ 'ava'</td>
+                  <td>+ 'ava'</td>
+                  <td>+ 'ávamos'</td>
+                  <td>+ 'avam'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>+ 'ia'</td>
+                  <td>+ 'ia'</td>
+                  <td>+ 'íamos'</td>
+                  <td>+ 'iam'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>+ 'ia'</td>
+                  <td>+ 'ia'</td>
+                  <td>+ 'íamos'</td>
+                  <td>+ 'iam'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                some verbs may follow regular rules in the Imperfeito.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>havia</td>
+                  <td>havia</td>
+                  <td>havíamos</td>
+                  <td>haviam</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>dizia</td>
+                  <td>dizia</td>
+                  <td>dizíamos</td>
+                  <td>diziam</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>trazia</td>
+                  <td>trazia</td>
+                  <td>trazíamos</td>
+                  <td>traziam</td>
+                </tr>
+                <tr>
+                  <td>fazer (to do, make)</td>
+                  <td>fazia</td>
+                  <td>fazia</td>
+                  <td>fazíamos</td>
+                  <td>faziam</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>queria</td>
+                  <td>queria</td>
+                  <td>queríamos</td>
+                  <td>queriam</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>sabia</td>
+                  <td>sabia</td>
+                  <td>sabíamos</td>
+                  <td>sabiam</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>podia</td>
+                  <td>podia</td>
+                  <td>podíamos</td>
+                  <td>podiam</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>era</td>
+                  <td>era</td>
+                  <td>éramos</td>
+                  <td>eram</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>tinha</td>
+                  <td>tinha</td>
+                  <td>tínhamos</td>
+                  <td>tinham</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>ia</td>
+                  <td>ia</td>
+                  <td>íamos</td>
+                  <td>iam</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>estava</td>
+                  <td>estava</td>
+                  <td>estávamos</td>
+                  <td>estavam</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>vinha</td>
+                  <td>vinha</td>
+                  <td>vínhamos</td>
+                  <td>vinham</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>via</td>
+                  <td>via</td>
+                  <td>víamos</td>
+                  <td>viam</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>dava</td>
+                  <td>dava</td>
+                  <td>dávamos</td>
+                  <td>davam</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Used in: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_7)"
+                >
+                  Pretérito Mais-Que-Perfeito Composto (with TER)
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_8)"
+                >
+                  Imperfeito Composto (with ESTAR)
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_11)"
+                >
+                  Voz Passiva (with SER)
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>
+                  How I remember when to use the Imperfeito vs. the Perfeito:
+                </strong>
+                <br />
+                <br />
+                Think of this example. You are out on a jog one day when you
+                pass your friend John's new house. You tell your mother, and she
+                asks - "what was the house like?" You reply - "it was brown and
+                in a very nice neighborhood." / "era castanha e ficava numa
+                vizinhança muito legal."
+                <br />
+                <br />
+                In a different world, say John's house burns down. You tell your
+                mother of the tragedy, who then asks - "what was the house
+                like?" You reply the same as above - "it was brown and in a very
+                nice neighborhood." / "foi castanha e ficou numa vizinhança
+                legal."
+                <br />
+                <br />
+                In the first case, you would use the Imperfeito, as the house is
+                still brown and still in the same neighborhood, though you saw
+                the house in the past. In the second case, you would use the
+                Perfeito, as the house no longer exists - it is no longer brown
+                or in the neighborhood.
+              </p>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-3-section">
+            <div class="sub-section">
+              <p>
+                <strong>Pretérito Perfeito do Indicativo:</strong>
+                the preterite perfect is used to describe actions with a clear
+                start and end point.
+                <a class="practice-link">PRACTICE</a>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Regular Verbs:</strong> To form regular
+                verbs in the Presente, remove the 'ar', 'ir', or 'er' from the
+                end of the infinitive, then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>+ 'ei'</td>
+                  <td>+ 'ou'</td>
+                  <td>+ 'amos'</td>
+                  <td>+ 'aram'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>+ 'i'</td>
+                  <td>+ 'eu'</td>
+                  <td>+ 'emos'</td>
+                  <td>+ 'eram'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>+ 'i'</td>
+                  <td>+ 'iu'</td>
+                  <td>+ 'imos'</td>
+                  <td>+ 'iram'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                most irregular verbs in the Perfeito do not follow regular verb
+                rules.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>houve</td>
+                  <td>houve</td>
+                  <td>houvemos</td>
+                  <td>houveram</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>disse</td>
+                  <td>disse</td>
+                  <td>dissemos</td>
+                  <td>disseram</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>trouxe</td>
+                  <td>trouxe</td>
+                  <td>trouxemos</td>
+                  <td>trouxeram</td>
+                </tr>
+                <tr>
+                  <td>fazer (to open)</td>
+                  <td>fiz</td>
+                  <td>fez</td>
+                  <td>fizemos</td>
+                  <td>fizeram</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>quis</td>
+                  <td>quis</td>
+                  <td>quisemos</td>
+                  <td>quiseram</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>soube</td>
+                  <td>soube</td>
+                  <td>soubemos</td>
+                  <td>souberam</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>pude</td>
+                  <td>pôde</td>
+                  <td>pudemos</td>
+                  <td>puderam</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>fui</td>
+                  <td>foi</td>
+                  <td>fomos</td>
+                  <td>foram</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>tive</td>
+                  <td>teve</td>
+                  <td>tivemos</td>
+                  <td>tiveram</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>fui</td>
+                  <td>foi</td>
+                  <td>fomos</td>
+                  <td>foram</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>estive</td>
+                  <td>esteve</td>
+                  <td>estivemos</td>
+                  <td>estiveram</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>vim</td>
+                  <td>veio</td>
+                  <td>viemos</td>
+                  <td>vieram</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>vi</td>
+                  <td>viu</td>
+                  <td>vimos</td>
+                  <td>viram</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>dei</td>
+                  <td>deu</td>
+                  <td>demos</td>
+                  <td>deram</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Used in: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_11)"
+                >
+                  Voz Passiva (with SER)
+                </button>
+              </p>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-4-section">
+            <div class="sub-section">
+              <p>
+                <strong>Futuro do Pretérito do Indicativo:</strong>
+                the future preterite is used to describe a fact that may have
+                happened after a past situation (would + verb), to indicate an
+                action that is a condition of something else (would + verb, if
+                __ ), and to sound more polite when asking/ordering (I would
+                like __ ).
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Commonly used with: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_13)"
+                >
+                  Imperfeito do Subjuntivo (conditional statements)
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Regular Verbs:</strong> To form regular
+                verbs in the Presente, remove the 'ar', 'ir', or 'er' from the
+                end of the infinitive, then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>+ 'aria'</td>
+                  <td>+ 'aria'</td>
+                  <td>+ 'aríamos'</td>
+                  <td>+ 'ariam'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>+ 'eria'</td>
+                  <td>+ 'eria'</td>
+                  <td>+ 'eríamos'</td>
+                  <td>+ 'eriam'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>+ 'iria'</td>
+                  <td>+ 'iria'</td>
+                  <td>+ 'iríamos'</td>
+                  <td>+ 'iriam'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                some irregular verbs may follow regular verb rules in the Futuro
+                do Pretérito.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>haveria</td>
+                  <td>haveria</td>
+                  <td>haveríamos</td>
+                  <td>haveriam</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>diria</td>
+                  <td>diria</td>
+                  <td>diríamos</td>
+                  <td>diriam</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>traria</td>
+                  <td>traria</td>
+                  <td>traríamos</td>
+                  <td>trariam</td>
+                </tr>
+                <tr>
+                  <td>fazer (to open)</td>
+                  <td>faria</td>
+                  <td>faria</td>
+                  <td>faríamos</td>
+                  <td>fariam</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>quereria</td>
+                  <td>quereria</td>
+                  <td>quereríamos</td>
+                  <td>quereriam</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>saberia</td>
+                  <td>saberia</td>
+                  <td>saberíamos</td>
+                  <td>saberiam</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>poderia</td>
+                  <td>poderia</td>
+                  <td>poderíamos</td>
+                  <td>poderiam</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>seria</td>
+                  <td>seria</td>
+                  <td>seríamos</td>
+                  <td>seriam</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>teria</td>
+                  <td>teria</td>
+                  <td>teríamos</td>
+                  <td>teriam</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>iria</td>
+                  <td>iria</td>
+                  <td>iríamos</td>
+                  <td>iriam</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>estaria</td>
+                  <td>estaria</td>
+                  <td>estaríamos</td>
+                  <td>estariam</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>viria</td>
+                  <td>viria</td>
+                  <td>viríamos</td>
+                  <td>viriam</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>veria</td>
+                  <td>veria</td>
+                  <td>veríamos</td>
+                  <td>veriam</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>daria</td>
+                  <td>daria</td>
+                  <td>daríamos</td>
+                  <td>dariam</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-5-section">
+            <div class="sub-section">
+              <p>
+                <strong>Futuro do Presente do Indicativo:</strong>
+                the future present refers to an action that will happen later
+                (will + verb). It can also express uncertainty. It is best to
+                use the Futuro Simples Composto when speaking.
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Other forms of speaking in the future: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_9)"
+                >
+                  Futuro Simples Composto
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_14)"
+                >
+                  Futuro do Subjuntivo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Regular Verbs:</strong> To form regular
+                verbs in the Presente, remove the 'ar', 'ir', or 'er' from the
+                end of the infinitive, then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>+ 'arei'</td>
+                  <td>+ 'ará'</td>
+                  <td>+ 'aremos'</td>
+                  <td>+ 'arão'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>+ 'erei'</td>
+                  <td>+ 'erá'</td>
+                  <td>+ 'eremos'</td>
+                  <td>+ 'erão'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>+ 'ei'</td>
+                  <td>+ 'á'</td>
+                  <td>+ 'emos'</td>
+                  <td>+ 'ão'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                some irregular verbs may follow regular verb rules in the Futuro
+                do Pretérito.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>haverei</td>
+                  <td>haverá</td>
+                  <td>haveremos</td>
+                  <td>haverão</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>direi</td>
+                  <td>dirá</td>
+                  <td>diremos</td>
+                  <td>dirão</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>trarei</td>
+                  <td>trará</td>
+                  <td>traremos</td>
+                  <td>trarão</td>
+                </tr>
+                <tr>
+                  <td>fazer (to open)</td>
+                  <td>farei</td>
+                  <td>fará</td>
+                  <td>faremos</td>
+                  <td>farão</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>quererei</td>
+                  <td>quererá</td>
+                  <td>quereremos</td>
+                  <td>quererão</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>saberei</td>
+                  <td>saberá</td>
+                  <td>saberemos</td>
+                  <td>saberão</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>poderei</td>
+                  <td>poderá</td>
+                  <td>poderemos</td>
+                  <td>poderão</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>serei</td>
+                  <td>será</td>
+                  <td>seremos</td>
+                  <td>srão</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>terei</td>
+                  <td>terá</td>
+                  <td>teremos</td>
+                  <td>terão</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>irei</td>
+                  <td>irá</td>
+                  <td>iremos</td>
+                  <td>irão</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>estarei</td>
+                  <td>estará</td>
+                  <td>estaremos</td>
+                  <td>estarão</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>virei</td>
+                  <td>virá</td>
+                  <td>viremos</td>
+                  <td>virão</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>verei</td>
+                  <td>verá</td>
+                  <td>veremos</td>
+                  <td>verão</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>darei</td>
+                  <td>dará</td>
+                  <td>daremos</td>
+                  <td>darão</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-6-section">
+            <div class="sub-section">
+              <p>
+                <strong>Presente Progressivo:</strong>
+                the present progressive tense is used to describe an event that
+                is occuring during the moment of discourse.
+              </p>
+              <p>
+                <strong>Formed by:</strong>
+                <em>ESTAR (in the Presente) + Present Participle</em>
+              </p>
+              <p>
+                <strong>English:</strong>
+                <em
+                  >am/are + Present Participle (going, seeing, doing,
+                  eating)</em
+                >
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Other forms of speaking in the present: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_1)"
+                >
+                  Presente do Indicativo
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_12)"
+                >
+                  Presente do Subjuntivo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section element-container">
+              <div class="composto-div">
+                <p>
+                  <strong>Forming Present Participles:</strong> Present
+                  participles are words in English ending in '-ing.' They are
+                  easy to make in Portuguese. Drop the 'ar,' 'er,' or 'ir' from
+                  the infinitive then add:
+                </p>
+                <table>
+                  <tr>
+                    <th>AR</th>
+                    <th>ER</th>
+                    <th>IR</th>
+                  </tr>
+                  <tr>
+                    <td>+ 'ando'</td>
+                    <td>+ 'endo'</td>
+                    <td>+ 'indo'</td>
+                  </tr>
+                  <tr>
+                    <td>chegando (arriving)</td>
+                    <td>comendo (eating)</td>
+                    <td>partindo (leaving)</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="composto-div right-composto">
+                <p><strong>ESTAR in the Presente</strong></p>
+                <table class="composto-flex">
+                  <tr>
+                    <td>Eu</td>
+                    <td>estou</td>
+                  </tr>
+                  <tr>
+                    <td>Você</td>
+                    <td>está</td>
+                  </tr>
+                  <tr>
+                    <td>Nós</td>
+                    <td>estamos</td>
+                  </tr>
+                  <tr>
+                    <td>Vocês</td>
+                    <td>estão</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-7-section">
+            <div class="sub-section">
+              <p>
+                <strong>Pretérito Mais-Que-Perfeito Composto:</strong>
+                The Portuguese pluperfect is used for describing actions in the
+                past that precedes another action in the past. Typically, both
+                actions are represented in the same sentence: the preceeding
+                action is in the pluperfect (had + past participle), while the
+                antecedent action is in the past perfect.
+              </p>
+              <p>
+                <strong>Formed by:</strong>
+                <em>TER (in the Imperfeito) + Past Participle</em>
+              </p>
+              <strong>English:</strong>
+              <em>had + Past Participle (gone, seen, done, eaten)</em>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Uses: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_2)"
+                >
+                  Pretérito Imperfeito do Idicativo
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_3)"
+                >
+                  Perfeito do Indicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section element-container">
+              <div class="composto-div">
+                <p>
+                  <strong>Forming Past Participles:</strong> Present participles
+                  are typically words in English ending in '-ed.' However, there
+                  are several excpetions for English. For most Portuguese verbs,
+                  drop the 'ar,' 'er,' or 'ir' from the infinitive then add:
+                </p>
+                <table>
+                  <tr>
+                    <th>AR</th>
+                    <th>ER</th>
+                    <th>IR</th>
+                  </tr>
+                  <tr>
+                    <td>+ 'ado'</td>
+                    <td>+ 'ido'</td>
+                    <td>+ 'ido'</td>
+                  </tr>
+                  <tr>
+                    <td>chegado (arrived)</td>
+                    <td>comido (eaten)</td>
+                    <td>partido (left)</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="composto-div right-composto">
+                <p><strong>TER in the Imperfeito</strong></p>
+                <table class="composto-flex">
+                  <tr>
+                    <td>Eu</td>
+                    <td>tinha</td>
+                  </tr>
+                  <tr>
+                    <td>Você</td>
+                    <td>tinha</td>
+                  </tr>
+                  <tr>
+                    <td>Nós</td>
+                    <td>tínhamos</td>
+                  </tr>
+                  <tr>
+                    <td>Vocês</td>
+                    <td>tinham</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-8-section">
+            <div class="sub-section">
+              <p>
+                <strong>Imperfeito Composto:</strong>
+                the imperfect compound is used when describing an action that
+                gets interrupted, or occurs in relation to another event. The
+                interrupting action is typically in the Perfeito and in the same
+                sentence.
+              </p>
+              <p>
+                <strong>Formed by:</strong>
+                <em>ESTAR (in the Imperfeito) + Present Participle</em>
+              </p>
+              <strong>English:</strong>
+              <em
+                >was/were + Present Participle (going, seeing, doing,
+                eating)</em
+              >
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Uses: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_2)"
+                >
+                  Pretérito Imperfeito do Idicativo
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_3)"
+                >
+                  Perfeito do Indicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section element-container">
+              <div class="composto-div">
+                <p>
+                  <strong>Forming Present Participles:</strong> Present
+                  participles are words in English ending in '-ing.' They are
+                  easy to make in Portuguese. Drop the 'ar,' 'er,' or 'ir' from
+                  the infinitive then add:
+                </p>
+                <table>
+                  <tr>
+                    <th>AR</th>
+                    <th>ER</th>
+                    <th>IR</th>
+                  </tr>
+                  <tr>
+                    <td>+ 'ando'</td>
+                    <td>+ 'endo'</td>
+                    <td>+ 'indo'</td>
+                  </tr>
+                  <tr>
+                    <td>chegando (arrived)</td>
+                    <td>comendo (eaten)</td>
+                    <td>partindo (left)</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="composto-div right-composto">
+                <p><strong>ESTAR in the Imperfeito</strong></p>
+                <table class="composto-flex">
+                  <tr>
+                    <td>Eu</td>
+                    <td>estava</td>
+                  </tr>
+                  <tr>
+                    <td>Você</td>
+                    <td>estava</td>
+                  </tr>
+                  <tr>
+                    <td>Nós</td>
+                    <td>estávamos</td>
+                  </tr>
+                  <tr>
+                    <td>Vocês</td>
+                    <td>estão</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-9-section">
+            <div class="sub-section">
+              <p>
+                <strong>Futuro Simples Composto:</strong>
+                the simple future compound is used when describing an action
+                that will or is going to occur.
+              </p>
+              <p>
+                <strong>Formed by:</strong>
+                <em
+                  >IR (in the Presente - vou, vai, vamos, vão) + Infinitive</em
+                >
+              </p>
+              <strong>English:</strong>
+              <em>will/going + Infinitive</em>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Other forms of speaking in the present: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_1)"
+                >
+                  Futuro Presente do Indicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Uses: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_2)"
+                >
+                  Presente do Idicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-10-section">
+            <div class="sub-section">
+              <p>
+                <strong>Pretérito Perfeito Composto:</strong>
+                the preterite perfect compound is is used to indicate a repeated
+                action that has taken place in the past, extending into the
+                present.
+              </p>
+              <p>
+                <strong>Formed by:</strong>
+                <em>TER (in the Presente) + Past Participle</em>
+              </p>
+              <strong>English:</strong>
+              <em>have been + Present Participle (going, doing)</em>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Uses: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_1)"
+                >
+                  Presente do Idicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section element-container">
+              <div class="composto-div">
+                <p>
+                  <strong>Forming Past Participles:</strong> Present participles
+                  are typically words in English ending in '-ed.' However, there
+                  are several excpetions for English. For most Portuguese verbs,
+                  drop the 'ar,' 'er,' or 'ir' from the infinitive then add:
+                </p>
+                <table>
+                  <tr>
+                    <th>AR</th>
+                    <th>ER</th>
+                    <th>IR</th>
+                  </tr>
+                  <tr>
+                    <td>+ 'ado'</td>
+                    <td>+ 'ido'</td>
+                    <td>+ 'ido'</td>
+                  </tr>
+                  <tr>
+                    <td>chegado (arrived)</td>
+                    <td>comido (eaten)</td>
+                    <td>partido (left)</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="composto-div right-composto">
+                <p><strong>TER in the Presente</strong></p>
+                <table class="composto-flex">
+                  <tr>
+                    <td>Eu</td>
+                    <td>tenho</td>
+                  </tr>
+                  <tr>
+                    <td>Você</td>
+                    <td>tem</td>
+                  </tr>
+                  <tr>
+                    <td>Nós</td>
+                    <td>temos</td>
+                  </tr>
+                  <tr>
+                    <td>Vocês</td>
+                    <td>têm</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-11-section">
+            <div class="sub-section">
+              <p>
+                <strong>Voz Passiva:</strong>
+                the passive voice is used to describe an action in the past that
+                happens to an object.
+              </p>
+              <p>
+                <strong>Formed by:</strong>
+                <em
+                  >SER (in the Perfeito or the Imperfeito) + Past Participle
+                  (adjusted for gender and plurality)</em
+                >
+              </p>
+              <strong>English:</strong>
+              <em>was/were + Past Participle (made, sent, given, ordered)</em>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Uses: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_2)"
+                >
+                  Imperfeito do Indicativo
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_2)"
+                >
+                  Perfeito do Indicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section element-container">
+              <div class="composto-div">
+                <p>
+                  <strong>Forming Past Participles:</strong> Present participles
+                  are typically words in English ending in '-ed.' However, there
+                  are several excpetions for English. For most Portuguese verbs,
+                  drop the 'ar,' 'er,' or 'ir' from the infinitive then add:
+                </p>
+                <table>
+                  <tr>
+                    <th>AR</th>
+                    <th>ER</th>
+                    <th>IR</th>
+                  </tr>
+                  <tr>
+                    <td>+ 'ado'</td>
+                    <td>+ 'ido'</td>
+                    <td>+ 'ido'</td>
+                  </tr>
+                  <tr>
+                    <td>chegado (arrived)</td>
+                    <td>comido (eaten)</td>
+                    <td>partido (left)</td>
+                  </tr>
+                </table>
+                <p>
+                  <strong>Gender and Plurality:</strong>
+                  Participles used in the Voz Passiva will be adjusted based on
+                  gender and plurality. If describing a feminine object, the
+                  ending will be 'a'; for masculine objects it will remain 'o.'
+                  When describing more than one object the ending will also
+                  contain an 's.' For example, here is are the past participles
+                  of FAZER adjusted for gender and plurality: feito (m, s);
+                  feita (f, s); feitos (m, p); feitas (f, p).
+                </p>
+              </div>
+              <div class="composto-div right-composto">
+                <p><strong>SER in the Perfeito </strong></p>
+                <table class="composto-flex">
+                  <tr>
+                    <td>Eu</td>
+                    <td>fui</td>
+                  </tr>
+                  <tr>
+                    <td>Você</td>
+                    <td>foi</td>
+                  </tr>
+                  <tr>
+                    <td>Nós</td>
+                    <td>fomos</td>
+                  </tr>
+                  <tr>
+                    <td>Vocês</td>
+                    <td>foram</td>
+                  </tr>
+                </table>
+                <p><strong>SER in the Imperfeito</strong></p>
+                <table class="composto-flex">
+                  <tr>
+                    <td>Eu</td>
+                    <td>era</td>
+                  </tr>
+                  <tr>
+                    <td>Você</td>
+                    <td>era</td>
+                  </tr>
+                  <tr>
+                    <td>Nós</td>
+                    <td>éramos</td>
+                  </tr>
+                  <tr>
+                    <td>Vocês</td>
+                    <td>eram</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-12-section">
+            <div class="sub-section">
+              <p>
+                <strong>Presente do Subjuntivo:</strong>
+                the Portuguese presente subjunctive is used when expressing
+                HOPE, ADVICE, WANT, NEED, and DOUBT. Additionally, use this verb
+                form when GIVING COMMANDS. The Subjuntivo in Portuguese
+                represents a continuum of liklihoods for the actions they are
+                describing. There is (1) will be happening, represented by the
+                Futuro do Subjuntivo; (2) plausible or likely to happen,
+                represented by the Presente do Subjuntivo; and (3) extremely
+                unlikely or hypothetical, represented by the Imperfeito do
+                Subjuntivo. Because the Presente do Subjuntivo describes
+                plausible situations with present verbs it is ideal for
+                describing situations involving hope, want, and need. Note: all
+                verbs in the Presente do Subjuntivo are in the present, to
+                describe actions happening just before the present, use Sub.
+                Pres. of 'ter' + past participle. Helpful Link:
+                <a
+                  href="https://www.semantica-portuguese.com/portuguese-present-subjunctive-2313/"
+                  >Semantica Portuguese</a
+                >
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Other forms of speaking in the present: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_1)"
+                >
+                  Presente do Indicativo
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_6)"
+                >
+                  Presente Composto
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Signal Phrases: </strong>the part of the sentence
+                expressing hope, want, and need is in the Presente, while the
+                second part of the sentence is the verb in the Presente do
+                Subjuntivo. When giving commands, always use the verb in the
+                Sub. Pres. Here are some phrases that indicate the need for the
+                Subjuntivo Presente:
+              </p>
+              <table>
+                <tr>
+                  <th>Portuguese</th>
+                  <th>English</th>
+                </tr>
+                <tr>
+                  <td>espero que...</td>
+                  <td>hope that...</td>
+                </tr>
+                <tr>
+                  <td>é importante que...</td>
+                  <td>it is important that...</td>
+                </tr>
+                <tr>
+                  <td>duvido que...</td>
+                  <td>doubt that...</td>
+                </tr>
+                <tr>
+                  <td>é possível que...</td>
+                  <td>it is possible that...</td>
+                </tr>
+                <tr>
+                  <td>...embora que...</td>
+                  <td>...even though...</td>
+                </tr>
+                <tr>
+                  <td>...para que...</td>
+                  <td>...so that...</td>
+                </tr>
+                <tr>
+                  <td>tomara que...</td>
+                  <td>hopefully...</td>
+                </tr>
+                <tr>
+                  <td>...em caso que...</td>
+                  <td>...in case...</td>
+                </tr>
+                <tr>
+                  <td>é melhor que...</td>
+                  <td>it is best that...</td>
+                </tr>
+                <tr>
+                  <td>tomara que...</td>
+                  <td>hopefully...</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Regular Verbs:</strong> To form regular
+                verbs in the Presente do Subjuntivo, remove the 'ar', 'ir', or
+                'er' from the end of the infinitive, then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>+ 'e'</td>
+                  <td>+ 'e'</td>
+                  <td>+ 'emos'</td>
+                  <td>+ 'em'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>+ 'a'</td>
+                  <td>+ 'a'</td>
+                  <td>+ 'amos'</td>
+                  <td>+ 'am'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>+ 'a'</td>
+                  <td>+ 'a'</td>
+                  <td>+ 'amos'</td>
+                  <td>+ 'am'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                there are no consistent rules for irregular verb conjugations in
+                the Presente.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>haja</td>
+                  <td>haja</td>
+                  <td>hajamos</td>
+                  <td>hajam</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>diga</td>
+                  <td>diga</td>
+                  <td>digamos</td>
+                  <td>digam</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>traga</td>
+                  <td>traga</td>
+                  <td>tragamos</td>
+                  <td>tragam</td>
+                </tr>
+                <tr>
+                  <td>fazer (to do, make)</td>
+                  <td>faça</td>
+                  <td>faça</td>
+                  <td>façamos</td>
+                  <td>façam</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>queira</td>
+                  <td>queira</td>
+                  <td>queiramos</td>
+                  <td>queiram</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>saiba</td>
+                  <td>saiba</td>
+                  <td>saibamos</td>
+                  <td>saibam</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>possa</td>
+                  <td>possa</td>
+                  <td>possamos</td>
+                  <td>possam</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>seja</td>
+                  <td>seja</td>
+                  <td>sejamos</td>
+                  <td>sejam</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>tenha</td>
+                  <td>tenha</td>
+                  <td>tenhamos</td>
+                  <td>tenham</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>vá</td>
+                  <td>vá</td>
+                  <td>vamos</td>
+                  <td>vão</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>esteja</td>
+                  <td>esteja</td>
+                  <td>estejamos</td>
+                  <td>estejam</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>venha</td>
+                  <td>venha</td>
+                  <td>venhamos</td>
+                  <td>venham</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>veja</td>
+                  <td>veja</td>
+                  <td>vejamos</td>
+                  <td>vejam</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>dê</td>
+                  <td>dê</td>
+                  <td>demos</td>
+                  <td>deem</td>
+                </tr>
+                <tr>
+                  <td>ficar (to stay)</td>
+                  <td>fique</td>
+                  <td>fique</td>
+                  <td>fiquemos</td>
+                  <td>fiquem</td>
+                </tr>
+                <tr>
+                  <td>chegar (to arrive)</td>
+                  <td>chegue</td>
+                  <td>chegue</td>
+                  <td>cheguemos</td>
+                  <td>cheguem</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-13-section">
+            <div class="sub-section">
+              <p>
+                <strong>Imperfeito do Subjuntivo:</strong>
+                the Imperfeito do Subjuntivo is used for describing actions
+                extremely unlikely to happen or have happened. This is the
+                appropriate verb for when saying "were to something." It is
+                frequently used with the Futuro do Pretérito: IF SOMETHING WERE
+                (Sub. Imp.), THEN SOMETHING WOULD (Fut. Pret.). Helpful link:
+                <a
+                  href="https://www.semantica-portuguese.com/imperfect-subjunctive-2733/"
+                  >Semantica Portuguese</a
+                >
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Commonly Used With: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_4)"
+                >
+                  Futuro do Pretérito do Indicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Regular Verbs:</strong> To form regular
+                verbs in the Presente do Subjuntivo, remove the 'ar', 'ir', or
+                'er' from the end of the infinitive, then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>+ 'asse'</td>
+                  <td>+ 'asse'</td>
+                  <td>+ 'ássemos'</td>
+                  <td>+ 'assem'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>+ 'esse'</td>
+                  <td>+ 'esse'</td>
+                  <td>+ 'êssemos'</td>
+                  <td>+ 'essem'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>+ 'isse'</td>
+                  <td>+ 'isse'</td>
+                  <td>+ 'íssemos'</td>
+                  <td>+ 'issem'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                there are no consistent rules for irregular verb conjugations in
+                the Imperfeito do Subjuntivo.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>houvesse</td>
+                  <td>houvesse</td>
+                  <td>houvéssemos</td>
+                  <td>houvessem</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>dissesse</td>
+                  <td>dissesse</td>
+                  <td>disséssemos</td>
+                  <td>dissessem</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>trouxesse</td>
+                  <td>trouxesse</td>
+                  <td>trouxéssemos</td>
+                  <td>trouxessem</td>
+                </tr>
+                <tr>
+                  <td>fazer (to do, make)</td>
+                  <td>fizesse</td>
+                  <td>fizesse</td>
+                  <td>fizéssemos</td>
+                  <td>fizessem</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>quisesse</td>
+                  <td>quisesse</td>
+                  <td>quiséssemos</td>
+                  <td>quisessem</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>soubesse</td>
+                  <td>soubesse</td>
+                  <td>soubéssemos</td>
+                  <td>soubessem</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>pudesse</td>
+                  <td>pudesse</td>
+                  <td>pudéssemos</td>
+                  <td>pudessem</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>fosse</td>
+                  <td>fosse</td>
+                  <td>fôssemos</td>
+                  <td>fossem</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>tivesse</td>
+                  <td>tivesse</td>
+                  <td>tivéssemos</td>
+                  <td>tivessem</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>fosse</td>
+                  <td>fosse</td>
+                  <td>fôssemos</td>
+                  <td>fossem</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>estivesse</td>
+                  <td>estivesse</td>
+                  <td>estivéssemos</td>
+                  <td>estivessem</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>viesse</td>
+                  <td>viesse</td>
+                  <td>viéssemos</td>
+                  <td>viessem</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>visse</td>
+                  <td>visse</td>
+                  <td>víssemos</td>
+                  <td>vissem</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>desse</td>
+                  <td>desse</td>
+                  <td>déssemos</td>
+                  <td>dessem</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-14-section">
+            <div class="sub-section">
+              <p>
+                <strong>Futuro do Subjuntivo:</strong>
+                The Futuro do Subjuntivo is used for future events that are
+                likely to occur but have not yet happened. This is an ideal
+                tense to use when talking about scheduled or planned events.
+                Helpful link:
+                <a
+                  href="https://www.semantica-portuguese.com/the-future-subjunctive-7999/#:~:text=Portuguese%20uses%20the%20Subjunctive%20mood,yet%20have%20not%20yet%20occurred."
+                  >Semantica Portuguese</a
+                >
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Used With: </strong>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_6)"
+                >
+                  Futuro Simples Composto
+                </button>
+                <button
+                  type="button"
+                  class="related-button"
+                  onclick="show_me(as_5)"
+                >
+                  Futuro do Presente do Indicativo
+                </button>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Conjugating Verbs:</strong> To form verbs in the Futuro
+                do Subjuntivo, keep the infinitive. Then add:
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>-ar</td>
+                  <td>nothing</td>
+                  <td>nothing</td>
+                  <td>+ 'mos'</td>
+                  <td>+ 'em'</td>
+                </tr>
+                <tr>
+                  <td>-er</td>
+                  <td>nothing</td>
+                  <td>nothing</td>
+                  <td>+ 'mos'</td>
+                  <td>+ 'em'</td>
+                </tr>
+                <tr>
+                  <td>-ir</td>
+                  <td>nothing</td>
+                  <td>nothing</td>
+                  <td>+ 'mos'</td>
+                  <td>+ 'em'</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples (regular verbs):</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Important Irregular Verb Conjugation:</strong>
+                the root for most irregular verbs conjugations in the Futuro do
+                Subjuntivo is the form for 'eu' in the Pretérito Perfeito do
+                Indicativo, + 'r'. Ex: I said (eu disse). The root for Futuro do
+                Subjuntivo: disser.
+              </p>
+              <table>
+                <tr>
+                  <th>Verbo:</th>
+                  <th>eu</th>
+                  <th>você, ela, ele</th>
+                  <th>nós</th>
+                  <th>vocês, eles, elas</th>
+                </tr>
+                <tr>
+                  <td>haver (to exist, there to be)</td>
+                  <td>houver</td>
+                  <td>houver</td>
+                  <td>houvermos</td>
+                  <td>houverem</td>
+                </tr>
+                <tr>
+                  <td>dizer (to say)</td>
+                  <td>disser</td>
+                  <td>disser</td>
+                  <td>dissermos</td>
+                  <td>disserem</td>
+                </tr>
+                <tr>
+                  <td>trazer (to bring)</td>
+                  <td>trouxer</td>
+                  <td>trouxer</td>
+                  <td>trouxermos</td>
+                  <td>trouxerem</td>
+                </tr>
+                <tr>
+                  <td>fazer (to do, make)</td>
+                  <td>fizer</td>
+                  <td>fizer</td>
+                  <td>fizermos</td>
+                  <td>fizerem</td>
+                </tr>
+                <tr>
+                  <td>querer (to want)</td>
+                  <td>quiser</td>
+                  <td>quiser</td>
+                  <td>quisermos</td>
+                  <td>quiserem</td>
+                </tr>
+                <tr>
+                  <td>saber (to know)</td>
+                  <td>souber</td>
+                  <td>souber</td>
+                  <td>soubermos</td>
+                  <td>souberem</td>
+                </tr>
+                <tr>
+                  <td>poder (to can)</td>
+                  <td>puder</td>
+                  <td>puder</td>
+                  <td>pudermos</td>
+                  <td>puderem</td>
+                </tr>
+                <tr>
+                  <td>ser (to be)</td>
+                  <td>for</td>
+                  <td>for</td>
+                  <td>formos</td>
+                  <td>forem</td>
+                </tr>
+                <tr>
+                  <td>ter (to have)</td>
+                  <td>tiver</td>
+                  <td>tiver</td>
+                  <td>tivermos</td>
+                  <td>tiverem</td>
+                </tr>
+                <tr>
+                  <td>ir (to go)</td>
+                  <td>for</td>
+                  <td>for</td>
+                  <td>formos</td>
+                  <td>forem</td>
+                </tr>
+                <tr>
+                  <td>estar (to be)</td>
+                  <td>estiver</td>
+                  <td>estiver</td>
+                  <td>estivermos</td>
+                  <td>estiverem</td>
+                </tr>
+                <tr>
+                  <td>vir (to come)</td>
+                  <td>vier</td>
+                  <td>vier</td>
+                  <td>viermos</td>
+                  <td>vierem</td>
+                </tr>
+                <tr>
+                  <td>ver (to see)</td>
+                  <td>vir</td>
+                  <td>vir</td>
+                  <td>virmos</td>
+                  <td>virem</td>
+                </tr>
+                <tr>
+                  <td>dar (to give)</td>
+                  <td>der</td>
+                  <td>der</td>
+                  <td>dermos</td>
+                  <td>derem</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-15-section">
+            <div class="sub-section">
+              <p>
+                <strong>Objeto Indireito:</strong>
+                the indirect object is an object that has an action done to, by,
+                or for it.
+                <a class="practice-link">PRACTICE OBJECTS</a>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Preposition and Object Relation:</strong> PARA (for,
+                to); A (to); DE (from); POR (by)
+              </p>
+              <table>
+                <tr>
+                  <th>Pronoun</th>
+                  <th>Objeto Indireito</th>
+                  <th>If used with a preposition:</th>
+                </tr>
+                <tr>
+                  <td>Eu</td>
+                  <td>me</td>
+                  <td>para mim</td>
+                </tr>
+                <tr>
+                  <td>Você</td>
+                  <td>lhe, te</td>
+                  <td>para você, ele, ela</td>
+                </tr>
+                <tr>
+                  <td>Nós</td>
+                  <td>nos</td>
+                  <td>para nós</td>
+                </tr>
+                <tr>
+                  <td>Vocês</td>
+                  <td>lhes</td>
+                  <td>para vocês, elas, eles</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Placement: </strong>There are two things to note with
+                the placement of the indirect object: 1) The indirect object
+                comes right after the verb if the sentence is used without
+                'para' and the sentence only has one verb. The exception to this
+                is 'me,' 'te,' and 'nos,' which are used before the verb. 2)
+                However, if there exists two verbs the indirect object comes
+                between them.
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples:</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel hidden" id="article-16-section">
+            <div class="sub-section">
+              <p>
+                <strong>Objeto Direito:</strong>
+                the direct object is a person or thing that recieves the action.
+                In English, the object is usally right after the verb.
+                <a class="practice-link">PRACTICE OBJECTS</a>
+              </p>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>'S,' 'Z,' 'R' Transformations:</strong> The object in
+                Portuguese usually comes right before the verb, unless the verb
+                ends with an 's,' 'r,' or 'z' sound, in which case the object is
+                attached to the end of the verb. This usually occurs when the
+                infinitive is employed.
+              </p>
+              <table class="conjugation-table">
+                <tr>
+                  <th>Pronoun</th>
+                  <th>Objeto</th>
+                  <th>Objeto if Verb ends in 'S' 'R' 'Z'</th>
+                  <th>Objeto - Formal</th>
+                </tr>
+                <tr>
+                  <td>Eu</td>
+                  <td>me</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Você</td>
+                  <td>o, a, te (te = informal)</td>
+                  <td>-lo, -la</td>
+                  <td>o senhor, a senhora, donna</td>
+                </tr>
+                <tr>
+                  <td>Nós</td>
+                  <td>nos</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Vocês</td>
+                  <td>os, as</td>
+                  <td>-los, -las</td>
+                  <td>as senhoras, os senhores</td>
+                </tr>
+              </table>
+              <p>
+                Making the transformation for the verb requires dropping the
+                'ar/ir/er' from the infinitive, then adding: í- (ir) á- (ar) and
+                ê- (er).
+              </p>
+              <table>
+                <tr>
+                  <th>Verb</th>
+                  <th>Infinitive</th>
+                  <th>Transformation</th>
+                  <th>English</th>
+                  <th>Without Trans.</th>
+                  <th>English</th>
+                </tr>
+                <tr>
+                  <td>AR</td>
+                  <td>enviar</td>
+                  <td>enviá-los</td>
+                  <td>to send them</td>
+                  <td>eu os envio</td>
+                  <td>I send them</td>
+                </tr>
+                <tr>
+                  <td>ER</td>
+                  <td>fazer</td>
+                  <td>fazê-las</td>
+                  <td>to make them</td>
+                  <td>eu as faço</td>
+                  <td>I make them</td>
+                </tr>
+                <tr>
+                  <td>IR</td>
+                  <td>destruir</td>
+                  <td>destruí-lo</td>
+                  <td>to destroy it</td>
+                  <td>eu o destruo</td>
+                  <td>I destroy it</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>When the Infinitive is Employed: </strong>
+                Many times when two verbs are strung together in Portuguese
+                (outside of the Compostos) the second is in it's infinitive
+                form. Here are common examples:
+              </p>
+              <table>
+                <tr>
+                  <th>Portuguese</th>
+                  <th>English</th>
+                  <th>Portuguese</th>
+                  <th>English</th>
+                </tr>
+                <tr>
+                  <td>eu gosto de (comer)</td>
+                  <td>I like (to eat)</td>
+                  <td>eu quero (comer)</td>
+                  <td>I want (to eat)</td>
+                </tr>
+                <tr>
+                  <td>eu vou (comer)</td>
+                  <td>I will/am going (to eat)</td>
+                  <td>eu acabei de (comer)</td>
+                  <td>I finished (eating)</td>
+                </tr>
+                <tr>
+                  <td>eu tenho que (comer)</td>
+                  <td>I have (to eat)</td>
+                  <td>eu customava (comer) muito</td>
+                  <td>I used (to eat) a lot</td>
+                </tr>
+              </table>
+            </div>
+            <div class="sub-section">
+              <p>
+                <strong>Examples:</strong>
+              </p>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+              <div class="element-container">
+                <p class="p-examples">
+                  Eu <mark>uso</mark> a mangueira para regar as plantas. (I
+                  <mark>use</mark> the hose to water the plants.)
+                </p>
+                <p class="p-examples">
+                  Você só <mark>come</mark> carne com molho. (You only
+                  <mark>eat</mark> meat with sauce.)
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ADS -->
+        <!--<section class="ads"></section>-->
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+  <footer></footer>
+</html>

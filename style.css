@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*SECTIONS*/
+
+.element-container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.left {
+  width: 250px;
+  padding: 10px;
+  background-color: #1047ad;
+  color: aliceblue;
+  text-align: center;
+}
+
+.right {
+  width: max-content;
+  min-width: 400px;
+  padding: 10px;
+  background-color: aliceblue;
+  color: #1047ad;
+}
+
+.panel {
+  margin-top: 10px;
+  color: black;
+}
+
+.sub-section {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: dashed #1047ad;
+  border-radius: 5px;
+  color: black;
+}
+
+.heading-button {
+  padding: 10px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.heading-button:hover {
+  text-decoration: underline dotted;
+}
+
+.ads {
+  width: 8cm;
+}
+
+/*BUTTONS*/
+
+.button-container {
+  margin: 8px auto;
+  width: auto;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #4170c9;
+  border: solid aliceblue;
+  text-align: center;
+}
+
+.nav-button {
+  background-color: aliceblue;
+  color: #1047ad;
+  font-size: 16px;
+  padding: 5px;
+  width: 2.75cm;
+  border-radius: 5px;
+  border: solid #1047ad;
+  margin: 5px;
+}
+
+.nav-title {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.practice-link {
+  text-decoration: none;
+  background-color: rgb(112, 206, 118);
+  color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  border: solid rgb(241, 175, 8);
+  border-width: 1px;
+  font-size: 12px;
+}
+
+.related-button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.related-button:hover {
+  text-decoration: underline solid rgb(241, 175, 8);
+}
+
+/*TAG STYLING*/
+
+mark {
+  text-decoration: underline solid #4170c9;
+  background-color: transparent;
+}
+
+.p-examples {
+  margin: 0 auto;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 40vw;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  padding: 2px;
+  font-size: 16px;
+}
+
+td {
+  font-size: 16px;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+em {
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+.composto-flex {
+  width: 8cm;
+  margin: 10px;
+}
+
+.composto-div {
+  margin-right: 10px;
+}
+
+.right-composto {
+  border-left: dotted 1px #4170c9;
+  text-align: center;
+}
+
+/*DISPLAY*/
+
+.hidden {
+  display: none;
+}
+
+.nav-button:hover,
+.nav-button:focus,
+.nav-button:active {
+  background-color: rgb(241, 175, 8);
+}
+
+.practice-link:hover,
+.practice-link:focus,
+.practice-link:active {
+  background-color: rgb(241, 175, 8);
+  color: aliceblue;
+}
+
+a {
+  color: #1047ad;
+}
+
+a:hover {
+  color: rgb(241, 175, 8);
+}
