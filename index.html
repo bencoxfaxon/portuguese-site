@@ -2367,6 +2367,29 @@
       </div>
     </main>
     <script src="script.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDXnNjItL_ai3fsA8xIrZKZmC0WCj56EZs",
+        authDomain: "portuguese-notes.firebaseapp.com",
+        projectId: "portuguese-notes",
+        storageBucket: "portuguese-notes.appspot.com",
+        messagingSenderId: "28677348556",
+        appId: "1:28677348556:web:c9be54bee29f6e376bf669",
+        measurementId: "G-Q05S1F1CMS",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
   <footer></footer>
 </html>
